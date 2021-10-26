@@ -1,0 +1,36 @@
+apiVersion: v1
+entries:
+  mosquitto:
+  - apiVersion: v1
+    appVersion: 1.6.10
+    created: "2021-10-26T14:57:05.4627695+02:00"
+    description: Eclipse Mosquitto - An open source MQTT broker
+    digest: d82ce61a4e757dcaf36187eb99c2ac3d182760f735db92dad1b6bab6c2ca8cd2
+    home: https://mosquitto.org/
+    icon: https://mosquitto.org/images/mosquitto-text-side-28.png
+    keywords:
+    - message queue
+    - MQTT
+    - mosquitto
+    - eclipse-iot
+    maintainers:
+    - email: nandan.thakur@outlook.com
+      name: Nandan
+    name: mosquitto
+    sources:
+    - https://github.com/eclipse/mosquitto
+    urls:
+    - https://mattiaperi.github.io/helm-chart/mosquitto-0.2.0.tgz
+    version: 0.2.0
+  videoprocessing:
+  - apiVersion: v2
+    appVersion: 1.0.6
+    created: "2021-10-26T14:57:05.4638816+02:00"
+    description: A Helm chart for Kubernetes
+    digest: 96da4cfb3e2dca3df421ff89c2d19a96a085055e01dfbb18f2fa6033ffd42fc4
+    name: videoprocessing
+    type: application
+    urls:
+    - https://mattiaperi.github.io/helm-chart/videoprocessing-0.1.1.tgz
+    version: 0.1.1
+generated: "2021-10-26T14:57:05.4611556+02:00"
