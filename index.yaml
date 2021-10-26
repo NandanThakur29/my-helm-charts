@@ -20,7 +20,7 @@ entries:
     sources:
     - https://github.com/eclipse/mosquitto
     urls:
-    - https://mattiaperi.github.io/helm-chart/mosquitto-0.2.0.tgz
+    - https://nandanthakur29.github.io/my-helm-charts/mosquitto-0.2.0.tgz
     version: 0.2.0
   videoprocessing:
   - apiVersion: v2
@@ -31,6 +31,6 @@ entries:
     name: videoprocessing
     type: application
     urls:
-    - https://mattiaperi.github.io/helm-chart/videoprocessing-0.1.1.tgz
+    - https://nandanthakur29.github.io/my-helm-charts/videoprocessing-0.1.1.tgz
     version: 0.1.1
 generated: "2021-10-26T14:57:05.4611556+02:00"
