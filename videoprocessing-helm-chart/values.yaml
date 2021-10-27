@@ -97,6 +97,10 @@ affinity: {}
 # such as types of detections and zones.
 #
 config: |
+  http:
+    port: 8080
+  mqtt:
+    host: 10.100.7.238
   cameras:
     - camera_id_1:
         width: 1280
@@ -106,18 +110,18 @@ config: |
           decoder:
             - -hide_banner
             - -loglevel
-            -  error
+            - error
             - -nostdin
             - -hwaccel
-            -  none
+            - none
             - -rtsp_transport
-            -  tcp
+            - tcp
             - -filter:v
             - -i
             - -f
-            -  rawvideo
+            - rawvideo
             - -pix_fmt
-            -  rgb24
+            - rgb24
         detect:
           - person:
           - car:
