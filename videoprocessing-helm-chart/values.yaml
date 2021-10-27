@@ -113,7 +113,6 @@ config: |
             - -rtsp_transport
             -  tcp
             - -filter:v
-            -  fps=fps=20
             - -i
             - -f
             -  rawvideo
@@ -121,9 +120,4 @@ config: |
             -  rgb24
         detect:
           - person:
-              area: 0.1
-              confidence: 60
-          - car
-              area: 0.1
-              confidence: 60
-
+          - car:
