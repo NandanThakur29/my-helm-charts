@@ -8,7 +8,7 @@ strategy: Recreate
 
 image:
   repository: nandanthakur/videoprocessing
-  tag: latest
+  tag: 0.1.2
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
 
