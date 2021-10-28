@@ -105,7 +105,7 @@ config: |
     - camera_id_1:
         width: 1280
         height: 960
-        input: !ENV "rtsp://guest:8uW6g4f!@79.138.1.151:8205"
+        input: !ENV "rtsp://username:password@ip:port"
         ffmpeg:
           decoder:
             - -hide_banner
